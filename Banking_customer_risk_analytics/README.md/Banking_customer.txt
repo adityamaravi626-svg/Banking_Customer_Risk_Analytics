@@ -1,0 +1,131 @@
+# Banking Customer Risk, Marketing & Loan Analytics
+
+An end-to-end banking analytics project using Python, Statistics, Machine Learning, GenAI, SQL, and Power BI to analyze customer characteristics, loan-related indicators, marketing campaigns, and term-deposit subscription behavior.
+
+---
+
+## Project Overview
+
+Banks conduct marketing campaigns to contact customers and encourage them to subscribe to financial products such as term deposits.
+
+This project analyzes customer and campaign data to answer questions such as:
+
+- Which customer groups are more likely to subscribe?
+- Which jobs and education groups show higher subscription rates?
+- How do housing loans, personal loans, and default status relate to subscription behavior?
+- How does campaign contact intensity affect outcomes?
+- Which contact methods and campaign periods perform better?
+- How are economic indicators associated with customer response?
+- Can Machine Learning estimate the probability of a customer subscribing?
+- How can GenAI convert analytical and ML outputs into useful business insights?
+
+The project combines data analytics, statistical analysis, machine learning, SQL, GenAI, and interactive Power BI dashboards into one complete workflow.
+
+---
+
+## Business Problem
+
+The main objective is to understand customer response to bank marketing campaigns and identify patterns that can help improve campaign targeting.
+
+The analysis focuses on:
+
+1. Customer demographics
+2. Loan and financial indicators
+3. Marketing campaign performance
+4. Previous campaign interactions
+5. Economic conditions
+6. Term-deposit subscription behavior
+7. Machine Learning based subscription probability
+
+---
+
+## Dataset
+
+The project uses the **Bank Marketing Dataset**.
+
+### Important Target Variable
+
+The target variable is:
+
+`y`
+
+It represents whether the customer subscribed to a **term deposit**.
+
+| Value | Meaning |
+|------|---------|
+| 0 / no | Customer did not subscribe |
+| 1 / yes | Customer subscribed |
+
+> **Important:** This dataset does not contain loan default as the prediction target. The `default`, `housing`, and `loan` columns are used as customer/loan-related indicators, while `y` represents term-deposit subscription.
+
+---
+
+##  Main Features
+
+| Feature | Description |
+|--------|-------------|
+| age | Customer age |
+| job | Type of job |
+| marital | Marital status |
+| education | Education level |
+| default | Credit default status |
+| housing | Housing loan status |
+| loan | Personal loan status |
+| contact | Contact communication method |
+| month | Month of contact |
+| day_of_week | Day of contact |
+| campaign | Number of contacts during the current campaign |
+| pdays | Days since previous campaign contact |
+| previous | Number of previous contacts |
+| poutcome | Outcome of previous marketing campaign |
+| emp_var_rate | Employment variation rate |
+| cons_price_idx | Consumer price index |
+| cons_conf_idx | Consumer confidence index |
+| euribor3m | Euribor 3-month rate |
+| nr_employed | Number of employees |
+| y | Term-deposit subscription |
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- SQL
+- MySQL
+- Power BI
+- DAX
+- GenAI
+- Git & GitHub
+- Google Colab
+
+---
+
+# Project Workflow
+
+```text
+Dataset
+   ↓
+Data Understanding
+   ↓
+Data Cleaning
+   ↓
+Exploratory Data Analysis
+   ↓
+Statistical Analysis
+   ↓
+Feature Engineering
+   ↓
+Machine Learning
+   ↓
+GenAI Banking Analyst
+   ↓
+SQL Analytics
+   ↓
+Power BI Dashboard
+   ↓
+Business Insights & Recommendations
